@@ -1,10 +1,17 @@
-# Nuxt Minimal Starter
+# Inspira Nuxt Starter
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Com dificuldades de iniciar um projeto com Nuxt 3, Shadcn, Inspira Ui e Tailwind CSS?
+
+Esse repositório agiliza esse processo, disponibilizando um template base com uma página estática contendo alguns componentes dessas libs. A partir dele, você poderá personalizar/adicionar mais componentes e ir criar seu app da forma que deseja.
+
+## Links Úteis
+- [Nuxt 3](https://nuxt.com/)
+- [Inspira UI](https://inspira-ui.com/)
+- [Shadcn Vue](https://www.shadcn-vue.com/)
+- [TailwindCSS](https://tailwindcss.com/)
 
 ## Setup
-
-Make sure to install dependencies:
+Instale as dependências:
 
 ```bash
 # npm
@@ -20,9 +27,9 @@ yarn install
 bun install
 ```
 
-## Development Server
+## Desenvolvimento
 
-Start the development server on `http://localhost:3000`:
+Start o server de desenvolvimento `http://localhost:3000`:
 
 ```bash
 # npm
@@ -38,10 +45,8 @@ yarn dev
 bun run dev
 ```
 
-## Production
-
-Build the application for production:
-
+## Produção
+Build para produção
 ```bash
 # npm
 npm run build
@@ -55,21 +60,3 @@ yarn build
 # bun
 bun run build
 ```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
